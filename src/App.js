@@ -33,13 +33,13 @@ class App extends Component {
             render={(props) => <Welcome {...props} name={props.match.params.name} />}
           />
 
-          <Route exect path="/welcome/:name/:secondName"
+          <Route path="/welcome/:name/:secondName"
             render={(props) => <Welcome {...props} name={props.match.params.name}
               secondName={props.match.params.secondName} />}
           />
 
-          <Route exact path="/clock" component={Clock} />
-          <Route exact path="/contact" component={Contact} />
+          <Route  path="/clock" component={Clock} />
+          <Route  path="/contact" component={Contact} />
           <Route path="*" component={Nothing404} />
 
         </Switch>
