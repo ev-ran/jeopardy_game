@@ -15,6 +15,8 @@ function Navigation(props) {
                 <li><Link to={"/welcome/Peter"}>Welcome+Name</Link> </li>
                 <li><Link to={"/welcome/"+name}>Welcome+[name]</Link> </li>
                 <li><Link to={"/welcome/"+name+"/"+secondName}>Welcome+[name]+[sname]</Link> </li>
+                <li><Link to={"/fetch"}>TestFetch</Link></li>
+                <li><Link to={"/jeopardy"}>Jeopardy</Link></li>
             </ul>
         </div>
     );
