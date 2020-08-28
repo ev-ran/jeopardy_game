@@ -1,7 +1,7 @@
 //import the axios HTTP client to communicate with the API
 import axios from 'axios';
 class JeopardyService {
-    constructor(url = 'http://jservice.io/api/random', client = axios.create()){
+    constructor(url = 'https://shrouded-mountain-15003.herokuapp.com/http://jservice.io/api/random', client = axios.create()){
         this.url = url;
         this.client = client;
     }
@@ -14,15 +14,15 @@ class JeopardyService {
     }
 
     getCategoryQuestions(categoryID){
-        return this.client.get("http://jservice.io/api/clues?category=" + categoryID);
+        return this.client.get("https://shrouded-mountain-15003.herokuapp.com/http://jservice.io/api/clues?category=" + categoryID);
     }
 
     getCategories(){
-        return this.client.get("http://jservice.io/api/categories?count=3");
+        return this.client.get("https://shrouded-mountain-15003.herokuapp.com/http://jservice.io/api/categories?count=3");
     }
 
     getOffsetCategories(offsetNumber){
-        return this.client.get("http://jservice.io/api/categories?offset=" + offsetNumber);
+        return this.client.get("https://shrouded-mountain-15003.herokuapp.com/http://jservice.io/api/categories?offset=" + offsetNumber);
     }
 
 }
