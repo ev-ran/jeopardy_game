@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter basename="/React_app_Multicomponent_Routing">
+  <BrowserRouter basename="/jeopardy_game">
     <App />
   </BrowserRouter>,
   document.getElementById('root')

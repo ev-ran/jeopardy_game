@@ -1,6 +1,6 @@
 {
-  "name": "reactdemomultiplecomponentsinreactapp",
-  "homepage": "https://ev-ran.github.io/React_app_Multicomponent_Routing",
+  "name": "reactdemojeopardy",
+  "homepage": "https://ev-ran.github.io/jeopardy_game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
