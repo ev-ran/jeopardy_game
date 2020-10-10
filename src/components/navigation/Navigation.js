@@ -8,7 +8,7 @@ function Navigation(props) {
     return (
         <div className="Navigation">
             <ul>
-                <li><Link to="/">Home</Link> </li>
+                {/* <li><Link to="/">Home</Link> </li>
                 <li><Link to="/clock">Clock</Link></li>
                 <li><Link to="/contact">Contact</Link> </li>
                 <li><Link to="/welcome">Welcome</Link> </li>
@@ -16,7 +16,7 @@ function Navigation(props) {
                 <li><Link to={"/welcome/"+name}>Welcome+[name]</Link> </li>
                 <li><Link to={"/welcome/"+name+"/"+secondName}>Welcome+[name]+[sname]</Link> </li>
                 <li><Link to={"/fetch"}>TestFetch</Link></li>
-                <li><Link to={"/jeopardy"}>Jeopardy</Link></li>
+                <li><Link to={"/jeopardy"}>Jeopardy</Link></li> */}
             </ul>
         </div>
     );

@@ -27,8 +27,10 @@ class App extends Component {
 
           {/* define our rotes */}
 
-          <Route exact path="/" render={(props) => <Welcome {...props} name="on root/home Page" />} />
+          {/* <Route exact path="/" render={(props) => <Welcome {...props} name="on root/home Page" />} /> */}
 
+          <Route exact path="/" component={Jeopardy} />
+          
           <Route exact path="/welcome" render={(props) => <Welcome {...props} name="! Welcome Everybody!" />} />
 
           <Route exact path="/welcome/:name"
